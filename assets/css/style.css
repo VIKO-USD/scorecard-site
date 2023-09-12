@@ -253,16 +253,16 @@ a:hover {
   text-decoration: underline; }
 
 a {
-  color: #1d70b8; }
+  color: black; }
 
 a:hover {
-  color: #003078; }
+  color: #002569; }
 
 a:visited {
-  color: #4c2c92; }
+  color: black; }
 
 body.contrast-high a:visited {
-  color: #AD6800; }
+  color: white; }
 
 [href]:focus {
   color: #0b0c0c !important;
@@ -492,7 +492,7 @@ footer {
   footer a {
     color: #0b0c0c; }
     footer a:hover {
-      color: #003078; }
+      color: #002569; }
 
 body.contrast-high footer {
   color: white;
@@ -858,7 +858,7 @@ body.contrast-high #dataset-size-warning {
 
 .frontpage-goals-grid {
   margin: 40px 0 20px 0;
-  border-top: 2px solid #ccc; }
+  border-top: 2px solid #25c3ee; }
   @media only screen and (min-width: 992px) {
     .frontpage-goals-grid .goal-tiles .goal-tile {
       width: 11%; } }
@@ -1447,11 +1447,11 @@ body.contrast-high .proxy-pill {
   .status.complete {
     color: white;
     border: 1px solid transparent;
-    background-color: #2B2B2B;
-    background: #2B2B2B; }
+    background-color: #002569;
+    background: #002569; }
     .status.complete .status-inner {
-      background-color: #2B2B2B;
-      background: #2B2B2B; }
+      background-color: #002569;
+      background: #002569; }
   .status.inprogress {
     color: white;
     border: 1px solid transparent;
@@ -1463,16 +1463,16 @@ body.contrast-high .proxy-pill {
   .status.notstarted {
     color: #0b0c0c;
     border: 1px solid #0b0c0c;
-    background-color: white;
-    background: white; }
+    background-color: #2ebdc8;
+    background: #2ebdc8; }
     .status.notstarted .status-inner {
-      background-color: white;
-      background: white; }
+      background-color: #2ebdc8;
+      background: #2ebdc8; }
   .status.notapplicable {
     color: #0b0c0c;
     border: 1px solid #0b0c0c;
-    background-color: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
-    background: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px); }
+    background-color: repeating-linear-gradient(135deg, #1d78b4, #002569 10px, #1d78b4 10px, #002569 20px);
+    background: repeating-linear-gradient(135deg, #1d78b4, #002569 10px, #1d78b4 10px, #002569 20px); }
     .status.notapplicable .status-inner {
       background-color: rgba(255, 255, 255, 0.8);
       background: rgba(255, 255, 255, 0.8); }
@@ -1506,8 +1506,8 @@ body.contrast-high .status.notstarted {
     color: white !important; }
 body.contrast-high .status.notapplicable {
   border: 1px solid white;
-  background-color: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
-  background: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
+  background-color: repeating-linear-gradient(135deg, #2B2B2B, white 10px, #2B2B2B 10px, white 20px);
+  background: repeating-linear-gradient(135deg, #2B2B2B, white 10px, #2B2B2B 10px, white 20px);
   color: black !important; }
   body.contrast-high .status.notapplicable .status-inner {
     background-color: rgba(255, 255, 255, 0.8) !important;
@@ -1762,11 +1762,11 @@ body.contrast-high .indicator.goal-banner .goal-tiles img {
     .layout-reportingstatus #main-content .statuses > div .status.complete {
       color: white;
       border: 1px solid transparent;
-      background-color: #2B2B2B;
-      background: #2B2B2B; }
+      background-color: #002569;
+      background: #002569; }
       .layout-reportingstatus #main-content .statuses > div .status.complete .status-inner {
-        background-color: #2B2B2B;
-        background: #2B2B2B; }
+        background-color: #002569;
+        background: #002569; }
     .layout-reportingstatus #main-content .statuses > div .status.inprogress {
       color: white;
       border: 1px solid transparent;
@@ -1778,16 +1778,16 @@ body.contrast-high .indicator.goal-banner .goal-tiles img {
     .layout-reportingstatus #main-content .statuses > div .status.notstarted {
       color: #0b0c0c;
       border: 1px solid #0b0c0c;
-      background-color: white;
-      background: white; }
+      background-color: #2ebdc8;
+      background: #2ebdc8; }
       .layout-reportingstatus #main-content .statuses > div .status.notstarted .status-inner {
-        background-color: white;
-        background: white; }
+        background-color: #2ebdc8;
+        background: #2ebdc8; }
     .layout-reportingstatus #main-content .statuses > div .status.notapplicable {
       color: #0b0c0c;
       border: 1px solid #0b0c0c;
-      background-color: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
-      background: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px); }
+      background-color: repeating-linear-gradient(135deg, #1d78b4, #002569 10px, #1d78b4 10px, #002569 20px);
+      background: repeating-linear-gradient(135deg, #1d78b4, #002569 10px, #1d78b4 10px, #002569 20px); }
       .layout-reportingstatus #main-content .statuses > div .status.notapplicable .status-inner {
         background-color: rgba(255, 255, 255, 0.8);
         background: rgba(255, 255, 255, 0.8); }
@@ -1811,17 +1811,17 @@ body.contrast-high .indicator.goal-banner .goal-tiles img {
     height: 10px;
     font-weight: bold; }
   .layout-reportingstatus #main-content .goal-stats .notapplicable {
-    background-color: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
-    background: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px); }
+    background-color: repeating-linear-gradient(135deg, #1d78b4, #002569 10px, #1d78b4 10px, #002569 20px);
+    background: repeating-linear-gradient(135deg, #1d78b4, #002569 10px, #1d78b4 10px, #002569 20px); }
   .layout-reportingstatus #main-content .goal-stats .notstarted {
-    background-color: white;
-    background: white; }
+    background-color: #2ebdc8;
+    background: #2ebdc8; }
   .layout-reportingstatus #main-content .goal-stats .inprogress {
     background-color: #757575;
     background: #757575; }
   .layout-reportingstatus #main-content .goal-stats .complete {
-    background-color: #2B2B2B;
-    background: #2B2B2B; }
+    background-color: #002569;
+    background: #002569; }
 .layout-reportingstatus #main-content .divider {
   height: 15px; }
 .layout-reportingstatus #main-content .goal {
@@ -1885,8 +1885,8 @@ body.contrast-high .indicator.goal-banner .goal-tiles img {
 .layout-reportingstatus.contrast-high #main-content .goal-stats {
   border: 1px solid white !important; }
   .layout-reportingstatus.contrast-high #main-content .goal-stats .notapplicable {
-    background-color: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
-    background: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px); }
+    background-color: repeating-linear-gradient(135deg, #2B2B2B, white 10px, #2B2B2B 10px, white 20px);
+    background: repeating-linear-gradient(135deg, #2B2B2B, white 10px, #2B2B2B 10px, white 20px); }
   .layout-reportingstatus.contrast-high #main-content .goal-stats .notstarted {
     background-color: black;
     background: black; }
@@ -1931,8 +1931,8 @@ body.contrast-high .indicator.goal-banner .goal-tiles img {
       color: white !important; }
   .layout-reportingstatus.contrast-high #main-content .statuses .status.notapplicable {
     border: 1px solid white;
-    background-color: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
-    background: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
+    background-color: repeating-linear-gradient(135deg, #2B2B2B, white 10px, #2B2B2B 10px, white 20px);
+    background: repeating-linear-gradient(135deg, #2B2B2B, white 10px, #2B2B2B 10px, white 20px);
     color: black !important; }
     .layout-reportingstatus.contrast-high #main-content .statuses .status.notapplicable .status-inner {
       background-color: rgba(255, 255, 255, 0.8) !important;
@@ -2086,7 +2086,7 @@ body.contrast-high.layout-config-builder .config-repository-button span {
     #main-content #map .leaflet-bar-timecontrol.leaflet-control-attribution {
       background: white; }
       #main-content #map .leaflet-bar-timecontrol.leaflet-control-attribution a {
-        color: #1d70b8; }
+        color: black; }
   #main-content #map .leaflet-control-fullscreen-button {
     background-image: none;
     font-size: 20px; }
@@ -2324,7 +2324,7 @@ body.contrast-high #main-content #map .disaggregation-controls {
   text-decoration: underline; }
 
 .klaro .cookie-notice .cn-body .cm-link {
-  color: #1d70b8;
+  color: black;
   text-decoration: underline; }
 .klaro .cookie-notice .cn-body strong {
   text-transform: lowercase; }
@@ -2635,3 +2635,207 @@ body.contrast-high #search-bar-on-page button:hover {
 
 body.contrast-high.layout-search form input, body.contrast-high.layout-search form label {
   color: black; }
+
+#search {
+  padding-bottom: 0px;
+  padding-right: 10px; }
+  #search .input-group {
+    flex-wrap: nowrap; }
+  #search input {
+    width: 33ch;
+    border: 1.25px solid black;
+    background-color: #002569; }
+  #search button {
+    color: white;
+    background-color: #002569;
+    border: 1.25px solid #002569; }
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 35px 0; }
+  .logo img {
+    max-width: 300px;
+    object-fit: contain; }
+
+.header-nav {
+  background: linear-gradient(90deg, #44b37d 0%, #2ebdc8 40%, #25c3ee 70%, #1d78b4 100%);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.15) !important; }
+
+#menu {
+  margin: 0; }
+
+.d-flex {
+  padding: 5px 30px;
+  white-space: nowrap; }
+
+.no-js-language-toggle {
+  display: none; }
+
+.container-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto; }
+  .container-image img {
+    height: 100px;
+    margin: 20px 0; }
+
+.sticky {
+  position: sticky;
+  top: 0; }
+
+.navbar-nav {
+  margin: 0; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-weight: 200; }
+
+.header-toggles a {
+  margin: 0 0 0 5px; }
+
+.language-toggle-container {
+  margin: 0; }
+
+.navbar-toggler {
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px; }
+
+/* .language-toggle-container {
+    display: none !important;
+    margin: 0;
+}
+ */
+@media only screen and (max-width: 991px) {
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    display: block;
+    display: inline-block;
+    background-color: #FFC726;
+    border: 1px solid grey;
+    align-items: center; } }
+@media only screen and (min-width: 991px) {
+  #navbarSupportedContentMovi {
+    display: none; } }
+@media (max-width: 992px) {
+  .navbar-collapse-second {
+    display: none; }
+
+  .navbar-expand-lg .mobile-menu {
+    display: none; } }
+@media only screen and (min-width: 992px) {
+  #navbarSupportedContentMovi {
+    display: none !important; } }
+footer {
+  background-color: lightgray; }
+
+#disclaimer {
+  display: inline-block;
+  font-size: 13px;
+  padding-left: 13px; }
+
+#footer-links {
+  display: flex;
+  height: 100%;
+  align-items: end;
+  justify-content: end;
+  font-size: 13px; }
+  #footer-links ul {
+    list-style-type: none; }
+    #footer-links ul li {
+      font-size: 1rem;
+      padding: 0;
+      margin: 0 0 10px 0; }
+
+.site-intro {
+  background-position: right 60px center;
+  background-size: 160px;
+  margin-top: 60px; }
+  .site-intro h1 {
+    margin-bottom: 15px; }
+
+.frontpage-goals-grid {
+  margin: 40px 0 20px 0;
+  padding-top: 40px;
+  border-top: 2px solid #25c3ee; }
+  .frontpage-goals-grid h2 {
+    margin: 20px 0; }
+
+.btn-primary {
+  background: #002569; }
+
+.card .card-title {
+  margin-bottom: 1rem; }
+
+.logos-container {
+  background-color: transparent;
+  justify-content: space-around; }
+  .logos-container .usd-logo {
+    padding-bottom: 20px !important;
+    object-fit: contain;
+    height: auto !important; }
+  .logos-container .uv-logo {
+    max-height: 160px;
+    padding-bottom: 20px !important;
+    object-fit: contain; }
+  .logos-container .social-icon {
+    height: 140px;
+    padding-bottom: 20px !important; }
+    .logos-container .social-icon img {
+      height: 24px;
+      width: 24px;
+      margin: 0;
+      padding: 0; }
+
+.back-to-top {
+  background-color: #2c579c;
+  padding: 5px;
+  display: inline-flex;
+  color: white;
+  border-radius: 8.5px;
+  justify-content: center;
+  align-items: center;
+  width: 150px; }
+  .back-to-top svg {
+    margin-right: 7px; }
+
+.back-to-top:hover {
+  background-color: #1d78b4 !important; }
+
+.app-c-back-to-top__icon {
+  display: none; }
+
+#chartSelectionDownload, #tableSelectionDownload {
+  text-align: center;
+  display: block; }
+
+.btn-primary, .btn-download {
+  background-color: #2c579c !important;
+  box-shadow: none !important; }
+
+.btn-download:hover, .btn-primary:hover {
+  background-color: #1d78b4 !important; }
+
+.indicator-progress .progress-status-heading {
+  font-size: 1.2rem;
+  font-weight: 600; }
+
+.breadcrumb {
+  margin-top: 1rem; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  color: #1c6d9c;
+  text-decoration: underline; }
+
+div[tabindex]:focus {
+  box-shadow: none !important; }
+
+body.contrast-high a {
+  color: white; }
