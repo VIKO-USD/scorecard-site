@@ -12,3 +12,24 @@
 //$link-color: #337ab7;
 //$footer-text-color: #000000;
 $indicatorContent-horizontalRule-color: transparent;
+$frontpageGrid-horizontalRule-color: #25c3ee;
+$link-color: black;
+$link-color-visited: black;
+$link-color-highContrast: white;
+$link-color-visited-highContrast: white;
+$link-color-hover: #002569;
+
+$status-backgroundColor-complete: #002569;
+$status-backgroundColor-notstarted: #2ebdc8;
+$status-backgroundColor-notapplicable: repeating-linear-gradient(
+    135deg,
+    #1d78b4,
+    #002569 10px,
+    #1d78b4 10px, 
+    #002569 20px);
+$status-backgroundColor-notapplicable-highContrast: repeating-linear-gradient(
+    135deg,
+    #2B2B2B,
+    white 10px,
+    #2B2B2B 10px,
+    white 20px);
