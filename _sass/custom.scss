@@ -1,1 +1,29 @@
 // Enter any custom Sass in this file.
+@import 'components/search';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/frontpage_intro';
+@import 'components/frontpage_goals_grid';
+@import 'components/card';
+@import 'components/back_to_top';
+@import 'components/data_download_buttons';
+@import 'components/buttons';
+@import 'components/indicator_progress_status';
+@import 'components/breadcrumbs';
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1c6d9c;
+    text-decoration: underline;
+}
+
+div[tabindex]:focus {
+    box-shadow: none !important;
+}
+
+body.contrast-high a {
+    color: $link-color-highContrast;
+}

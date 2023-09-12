@@ -22,13 +22,14 @@ breadcrumbs:
 cookie_consent_form:
   enabled: false
 country:
-  name: Australia
-  adjective: Australian
+  name: 
+  adjective: 
 create_goals:
-  previous_next_links: false
+  previous_next_links: true
+  goal_content_heading: ''
   goals: []
 create_indicators:
-  previous_next_links: false
+  previous_next_links: true
 create_pages:
   - filename: ''
     folder: /goals
@@ -53,58 +54,50 @@ date_formats: []
 disclaimer:
   phase: ''
   message: ''
-  hidden: false
+  hidden: true
 email_contacts:
   questions: test@example.com
   suggestions: test@example.com
   functional: test@example.com
+empty_metadata_placeholder: ''
+empty_metadata_placeholder_sources: ''
 environment: staging
 footer_language_toggle: none
 footer_menu:
-  - path: /contact-us
-    translation_key: menu.contact_us
-  - path: 'https://twitter.com/MyTwitterAccount'
-    translation_key: general.twitter
-  - path: 'https://facebook.com/MyFacebookAccount'
-    translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
 frontpage_cards:
-  - title: frontpage.download_all
+  - title: frontpage.project_title
     content: ''
-    include: components/download-all-data.html
+    include: components/project-card.html
     button_label: ''
     button_link: ''
-    rule_color: ''
-  - title: Lorem ipsum
-    content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-      cursus est sed dapibus.
-    include: ''
-    button_label: Read more
-    button_link: 'https://example.com'
-    rule_color: ''
-  - title: Nam vestibulum
-    content: |
-      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
-      interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
-    include: ''
-    button_label: Read more
-    button_link: 'https://example.com'
-    rule_color: ''
+    rule_color: '#25c3ee'
+  - title: frontpage.incollab_title
+    content:
+    include: 'components/incollab-card.html'
+    button_label: ''
+    button_link: ''
+    rule_color: '#25c3ee'
+  - title: frontpage.contact_title
+    content: ''
+    include: components/contact-card.html
+    button_label: ''
+    button_link: ''
+    rule_color: '#25c3ee'
 frontpage_goals_grid:
-  title: frontpage.heading_short
+  title: frontpage.instructions_short
   description: frontpage.instructions_shorter
 frontpage_introduction_banner:
   title: frontpage.intro_title
   description: frontpage.intro_body
-goal_image_base: 'https://open-sdg.org/sdg-translations/assets/img/goals'
+goal_image_base: "https://open-sdg.org/sdg-translations/assets/img/goals"
 goal_image_extension: ''
 goals_page:
   title: general.goals
-  description: frontpage.instructions_shorter
-graph_color_headline: '#004466'
-graph_color_headline_high_contrast: '#55a6e5'
+  description: 
+graph_color_headline: "#004466"
+graph_color_headline_high_contrast: "#55a6e5"
 graph_color_set: accessible
 graph_color_list: []
 graph_color_number: 0
@@ -113,8 +106,9 @@ header_language_toggle: dropdown
 hide_empty_metadata: true
 hide_single_series: true
 hide_single_unit: true
+ignored_disaggregations: []
 indicator_config_form:
-  enabled: true
+  enabled: false
   dropdowns: []
   repository_link: /tree/develop/indicator-config
   translation_link: ''
@@ -129,7 +123,6 @@ indicator_metadata_form:
   language: ''
   scopes:
     - national
-    - global
   exclude_fields: []
   translated: false
 indicator_tabs:
@@ -139,7 +132,6 @@ indicator_tabs:
   tab_4: ''
 languages:
   - en
-  - es
 languages_public: []
 logos: []
 map_layers: []
@@ -173,61 +165,87 @@ map_options:
     color: '#172d44'
     dashArray: '5,5'
 menu:
-  - path: /
-    translation_key: general.home
-    dropdown: []
   - path: /goals
     translation_key: general.goals
     dropdown: []
   - path: /reporting-status
     translation_key: menu.reporting_status
     dropdown: []
-  - path: /news
-    translation_key: menu.updates
-    dropdown: []
-  - path: /faq
-    translation_key: menu.faq
-    dropdown: []  
   - path: /about
     translation_key: menu.about
-    dropdown: []    
+    dropdown: []
+  # - path: /faq
+  #   translation_key: menu.faq
+  #   dropdown: []
+  # - path: /news
+  #   translation_key: menu.updates
+  #   dropdown: []
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
     title: indicator.national_metadata
     description: indicator.national_metadata_blurb
-  - scope: global
-    title: indicator.global_metadata
-    description: indicator.global_metadata_blurb
-  - scope: sources
-    title: indicator.sources
-    description: ''
+  # - scope: global
+  #   title: indicator.global_metadata
+  #   description: indicator.global_metadata_blurb
+  # - scope: sources
+  #   title: indicator.sources
+  #   description: ''
+  - scope: related_indicators
+    title: Related targets
+    description: Other related targets to this indicator
+    placeholder: There are no other targets related to this one
 news:
   category_links: false
 progress_status:
-  status_heading: ''
-  status_types: []
-remote_data_prefix: 'https://open-sdg.org/open-sdg-data-starter'
+  status_heading: status.progress_status
+  status_help: status.progress_help
+  status_types:
+    - value: not_available
+      label: status.progress_not_available
+      image: assets/img/progress/not-available.png
+      alt: status.progress_not_available
+    - value: challenges_remain
+      label: status.progress_challenges_remain
+      image: assets/img/progress/challenges-remain.png
+      alt: status.progress_challenges_remain
+    - value: approaching_target
+      label: status.progress_approaching_target
+      image: assets/img/progress/approaching-target.png
+      alt: status.progress_approaching_target
+    - value: target_achieved
+      label: status.progress_target_achieved
+      image: assets/img/progress/target-achieved.png
+      alt: status.progress_target_achieved
+progressive_web_app:
+  enabled: false
+  name: ''
+  short_name: ''
+  precaching: false
+proxy_indicators:
+  label: ''
+  description: ''
+remote_data_prefix: 'https://viko-usd.github.io/scorecard-data'
 reporting_status:
   title: status.reporting_status
   description: status.description
   disaggregation_tabs: false
   status_types:
-    - value: notstarted
-      label: status.no_data_available
-      hide_on_goal_pages: false
     - value: complete
-      label: status.reported_online
+      label: status.reported
+      hide_on_goal_pages: false
+    - value: notstarted
+      label: status.exploring_data_sources
       hide_on_goal_pages: false
     - value: notapplicable
       label: status.not_applicable
       hide_on_goal_pages: false
-repository_url_data: 'https://github.com/open-sdg/open-sdg-data-starter'
-repository_url_site: ''
+repository_url_data: 'https://github.com/VIKO-USD/scorecard-data'
+repository_url_site: 'https://github.com/VIKO-USD/scorecard-site'
 search_index_boost: []
 search_index_extra_fields: []
 site_config_form:
-  enabled: true
+  enabled: false
   dropdowns: []
   repository_link: /tree/develop/_data
   translation_link: ''

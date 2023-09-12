@@ -1,0 +1,51 @@
+<footer role="contentinfo">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="eu-logo">
+                    <img src="{{ site.baseurl }}/assets/img/eu_logo.png" alt="EU co-funded logo" class="uv-logo" />
+                </div>
+                <p id="disclaimer" class="footer-text">The cooperation project (2021-1-ES01-KA220-HED-000029950) has
+                    been
+                    funded
+                    with
+                    support from the European Commission. This website reflects the views only of the author, and the
+                    Commission
+                    cannot be held responsible for any use which may be made of the information contained therein.</p>
+
+            </div>
+            <div class="col-md-3">
+                <div id="footer-links">
+                    <ul>
+                        <li>
+                            <a href="https://open-sdg.org">{{ page.t.general.built_using_open_sdg }}</a>
+                        </li>
+                        {% if site.footer_menu %}
+                        {% for item in site.footer_menu %}
+                        {%- assign item_path = item.path | t -%}
+                        <li>
+                            {% if item_path contains ":" %}
+                            <a href="{{ item_path }}" target="_blank">{{ item.translation_key | t }}</a>
+                            {% else %}
+                            {%- assign item_path_first = item_path | slice: 0 %}
+                            {%- if item_path_first == '/' -%}
+                            {%- assign item_path = item_path | slice: 1, item_path.size -%}
+                            {%- endif -%}
+                            <a href="{{ page.baseurl }}{{ item_path }}">{{ item.translation_key | t }}</a>
+                            {% endif %}
+                        </li>
+                        {% endfor %}
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include footer-custom.html %}
+
+</footer>
+{% include scripts.html %}
+
+</body>
+
+</html>
