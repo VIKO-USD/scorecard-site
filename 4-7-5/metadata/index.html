@@ -117,7 +117,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Edit Metadata: 9.5.2 - Indicators For The Sustainable Development Goals</title>
+    <title>Edit Metadata: 4.7.5 - Indicators For The Sustainable Development Goals</title>
 
 
 
@@ -241,7 +241,7 @@ data-event-label="high"
 
 <div id="main-content" class="container" role="main">
   <div class="row">
-    <div class="col-md-12"><h1>Edit Metadata: 9.5.2</h1></div>
+    <div class="col-md-12"><h1>Edit Metadata: 4.7.5</h1></div>
   </div>
   <div class="config-widgets row">
     <div class="col-md-6" id="search_holder">
@@ -479,7 +479,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDG_GOAL', "global_goals.9-title");
+        var currentValue = normalizeCurrentValue('SDG_GOAL', "global_goals.4-title");
         var propertyEditor = editor.getEditor('root.SDG_GOAL');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -493,7 +493,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDG_TARGET', "global_targets.9-5-title");
+        var currentValue = normalizeCurrentValue('SDG_TARGET', "global_targets.4-7-title");
         var propertyEditor = editor.getEditor('root.SDG_TARGET');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -507,7 +507,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDG_INDICATOR', "global_indicators.9-5-2-title");
+        var currentValue = normalizeCurrentValue('SDG_INDICATOR', "global_indicators.4-7-5-title");
         var propertyEditor = editor.getEditor('root.SDG_INDICATOR');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -583,7 +583,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('UNIT_MEASURE', "units.total_number");
+        var currentValue = normalizeCurrentValue('UNIT_MEASURE', "units.percentage");
         var propertyEditor = editor.getEditor('root.UNIT_MEASURE');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -621,7 +621,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('DATA_COMP', "Number of researches\n");
+        var currentValue = normalizeCurrentValue('DATA_COMP', "Percentage (%) of the university population who participates in activities that promote education for sustainable development from total population\n");
         var propertyEditor = editor.getEditor('root.DATA_COMP');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -684,7 +684,7 @@ data-event-label="high"
     function addTranslationLink(propertyEditor) {
       var parts = propertyEditor.value.split('.');
       var translationLink = '';
-      translationLink = translationLink.replace('[id]', '9-5-2');
+      translationLink = translationLink.replace('[id]', '4-7-5');
       translationLink = translationLink.replace('[group]', parts[0]);
       translationLink = translationLink.replace('[key]', parts[1]);
       translationLink = translationLink.replace('[language]', 'en');
@@ -719,7 +719,7 @@ data-event-label="high"
       else {
         var config = editor.getValue();
         var yaml = jsyaml.safeDump(config);
-        SaveAsFile(yaml, '9-5-2.yml', 'text/plain;charset=utf-8');
+        SaveAsFile(yaml, '4-7-5.yml', 'text/plain;charset=utf-8');
       }
     });
 

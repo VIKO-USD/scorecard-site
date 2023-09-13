@@ -146,7 +146,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/scorecard-site/assets/css/style.css?v=20230912170233">
+        <link rel="stylesheet" href="/scorecard-site/assets/css/style.css?v=20230913121653">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -469,7 +469,7 @@ data-event-label="high"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Funded&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;State funded&quot;,&quot;Non-state funded&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Funded&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Funded&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;State funded&quot;,&quot;Non-state funded&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Funded&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="[]"
   data-proxy=""
@@ -1025,8 +1025,7 @@ data-event-label="Change to Related targets tab"
         <th scope="row">Method of computation </th>
         <td>
           
-            <p>Number of students enrolled every year
-Number by gender</p>
+            <p>Number of students enrolled every year</p>
 
           
         </td>
@@ -1173,13 +1172,28 @@ Number by gender</p>
         
         <div role="tabpanel" class="tab-pane " id="related_indicators">
             <article>
-                
+                <p>Other related targets to this indicator</p>
 
                 
+
+
+
+
+
+
     
-    <div class="empty-metadata-placeholder"><p>There are no other targets related to this one</p>
-</div>
+    <h2 class="related-indicator-goal" id="related-goal-5">Goal 5: Gender equality</h2>
+    <ul aria-labelledby="related-goal-5">
     
+        <li>
+            <div class="row">
+                <div class="col col-auto">5.1:</div>
+                <div class="col"><a href="">End all forms of discrimination against all women and girls everywhere</a></div>
+            </div>
+        </li>
+    
+    </ul>
+
 
 
             </article>
@@ -1285,12 +1299,12 @@ Number by gender</p>
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/scorecard-site/assets/js/sdg.js?v=20230912170233'></script>
+<script src='/scorecard-site/assets/js/sdg.js?v=20230913121653'></script>
 
 
     
     
-    <script src="/scorecard-site/assets/js/custom.js?v=20230912170233"></script><script>
+    <script src="/scorecard-site/assets/js/custom.js?v=20230913121653"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

@@ -140,6 +140,14 @@
           "keywords": "",
           "href": "/scorecard-site/4-7-4/",
           "status": "complete"
+        },
+        {
+          "id": "4-7-5",
+          "title": "global_indicators.5-7-5-title",
+          "description": "",
+          "keywords": "",
+          "href": "/scorecard-site/4-7-5/",
+          "status": "complete"
         }]
     }
   },
@@ -259,14 +267,6 @@
           "description": "",
           "keywords": "",
           "href": "/scorecard-site/8-5-4/",
-          "status": "complete"
-        },
-        {
-          "id": "8-8-1",
-          "title": "Salary difference between the staff with the lowest and highest remuneration",
-          "description": "",
-          "keywords": "",
-          "href": "/scorecard-site/8-8-1/",
           "status": "complete"
         }]
     }

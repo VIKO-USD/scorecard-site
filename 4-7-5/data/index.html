@@ -117,7 +117,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Edit Data: 8.8.1 - Indicators For The Sustainable Development Goals</title>
+    <title>Edit Data: 4.7.5 - Indicators For The Sustainable Development Goals</title>
 
 
 
@@ -141,7 +141,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/scorecard-site/assets/css/style.css?v=20230912170233">
+        <link rel="stylesheet" href="/scorecard-site/assets/css/style.css?v=20230913121653">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -241,7 +241,7 @@ data-event-label="high"
 
 <div id="main-content" class="container" role="main">
   <div class="row no-gutters">
-    <div class="col-md-12"><h1>Edit Data: 8.8.1</h1></div>
+    <div class="col-md-12"><h1>Edit Data: 4.7.5</h1></div>
   </div>
   <div class="row config-widgets">
     <div class="col-md-6 data-grid-buttons">
@@ -283,7 +283,7 @@ data-event-label="high"
       return false;
     }
     httpRequest.onreadystatechange = displaySpreadsheet;
-    httpRequest.open('GET', 'https://viko-usd.github.io/scorecard-data/untranslated/data/8-8-1.csv');
+    httpRequest.open('GET', 'https://viko-usd.github.io/scorecard-data/untranslated/data/4-7-5.csv');
     httpRequest.send();
   }
 
@@ -343,7 +343,7 @@ data-event-label="high"
   document.getElementById('export').onclick = function() {
     gridOptions.api.stopEditing();
     gridOptions.api.exportDataAsCsv({
-      fileName: 'indicator_8-8-1',
+      fileName: 'indicator_4-7-5',
     });
   }
 
@@ -431,12 +431,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/scorecard-site/assets/js/sdg.js?v=20230912170233'></script>
+<script src='/scorecard-site/assets/js/sdg.js?v=20230913121653'></script>
 
 
     
     
-    <script src="/scorecard-site/assets/js/custom.js?v=20230912170233"></script><script>
+    <script src="/scorecard-site/assets/js/custom.js?v=20230913121653"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
