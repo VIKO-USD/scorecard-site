@@ -19,3 +19,14 @@
 .app-c-back-to-top__icon{
   display: none;
 }
+
+
+body.contrast-high {
+  .back-to-top {
+    color: $color-dark-highContrast !important;
+    background-color: $color-light-highContrast !important;
+  }
+  .back-to-top:hover {
+    background-color: $button-color-hover-highContrast !important;
+  }
+}

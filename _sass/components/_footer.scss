@@ -2,6 +2,12 @@ footer {
     background-color: rgb(211,211,211);
 }
 
+body.contrast-high {
+    footer  {
+        border-top: 1px solid white !important;
+    }
+}
+
 #disclaimer {
     display: inline-block;
     font-size: 13px;

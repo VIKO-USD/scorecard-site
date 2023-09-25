@@ -17,3 +17,14 @@
         border: 1.25px solid #002569;
     }
 }
+
+body.contrast-high   {
+    #search {
+        button {
+            background-color: $button-color-highContrast;
+        }
+        input {
+            background-color: white;
+        }
+    }
+}

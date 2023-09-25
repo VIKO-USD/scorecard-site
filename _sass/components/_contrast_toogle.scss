@@ -1,0 +1,15 @@
+body.contrast-high {
+    [data-contrast-switch-to="default"] {
+        background-color: $button-color-highContrast;
+        color: $color-dark-highContrast;
+        &:hover {
+            color: $color-dark-highContrast;
+        }
+        &:focus {
+            box-shadow: none !important;
+            color: $color-dark-highContrast !important;
+            background-color: $button-color-highContrast !important;
+            outline: 4px solid $color-highlight-highContrast !important;
+        }
+    }
+}
