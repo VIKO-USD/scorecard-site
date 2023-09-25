@@ -2650,6 +2650,11 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
     background-color: #002569;
     border: 1.25px solid #002569; }
 
+body.contrast-high #search button {
+  background-color: #eeeeee; }
+body.contrast-high #search input {
+  background-color: white; }
+
 .logo {
   display: flex;
   justify-content: center;
@@ -2661,6 +2666,10 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 .header-nav {
   background: linear-gradient(90deg, #44b37d 0%, #2ebdc8 40%, #25c3ee 70%, #1d78b4 100%);
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.15) !important; }
+
+body.contrast-high .header-nav {
+  background: white !important;
+  box-shadow: none !important; }
 
 #menu {
   margin: 0; }
@@ -2733,6 +2742,9 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 footer {
   background-color: lightgray; }
 
+body.contrast-high footer {
+  border-top: 1px solid white !important; }
+
 #disclaimer {
   display: inline-block;
   font-size: 13px;
@@ -2765,8 +2777,8 @@ footer {
   .frontpage-goals-grid h2 {
     margin: 20px 0; }
 
-.btn-primary {
-  background: #002569; }
+body.contrast-high .frontpage-goals-grid {
+  border-color: white !important; }
 
 .card .card-title {
   margin-bottom: 1rem; }
@@ -2809,6 +2821,12 @@ footer {
 .app-c-back-to-top__icon {
   display: none; }
 
+body.contrast-high .back-to-top {
+  color: black !important;
+  background-color: white !important; }
+body.contrast-high .back-to-top:hover {
+  background-color: #DBDAD9 !important; }
+
 #chartSelectionDownload, #tableSelectionDownload {
   text-align: center;
   display: block; }
@@ -2826,6 +2844,17 @@ footer {
 
 .breadcrumb {
   margin-top: 1rem; }
+
+body.contrast-high [data-contrast-switch-to="default"] {
+  background-color: #eeeeee;
+  color: black; }
+  body.contrast-high [data-contrast-switch-to="default"]:hover {
+    color: black; }
+  body.contrast-high [data-contrast-switch-to="default"]:focus {
+    box-shadow: none !important;
+    color: black !important;
+    background-color: #eeeeee !important;
+    outline: 4px solid #FFDD00 !important; }
 
 a {
   text-decoration: none; }
