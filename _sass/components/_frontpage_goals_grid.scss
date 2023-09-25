@@ -8,6 +8,8 @@
   }
 }
 
-.btn-primary {
-  background: #002569;
+body.contrast-high {
+  .frontpage-goals-grid {
+    border-color: $color-light-highContrast !important;
+  }
 }

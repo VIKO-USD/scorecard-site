@@ -17,6 +17,13 @@
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.15) !important;
 }
 
+body.contrast-high   {
+  .header-nav { 
+    background: $color-light-highContrast !important;
+    box-shadow: none !important;
+  }
+}
+
 #menu {
   margin: 0;
 }
